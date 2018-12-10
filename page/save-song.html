@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Song</title>
+    <link rel="stylesheet" href="..//css/save-song.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-head">
+    <div class="row">
+        <div class="logo-home col-1 col-s-12">
+            <a href="home.html" title="Home">
+                <img src="../img/LogoHome.png">
+            </a>
+        </div>
+        <div class="search col-6 col-s-12">
+            <input placeholder="Enter the content to search" name="search">
+            <span>
+            <button type="button" class="btn-search">Search</button>
+            </span>
+        </div>
+        <div class="account col-4 col-s-12">
+            <a href="login.html">Login</a>
+            <i class="fas fa-key"></i>
+            <span>||</span>
+            <a href="register.html" name="register">Register</a>
+        </div>
+    </div>
+</div>
+<div class="navigation">
+    <div class="row">
+        <div class="col-2 col-s-4 col-p-4">
+            <a href="my-song.html">My Song</a>
+        </div>
+        <div class="col-2 col-s-4 col-p-4">
+            <a href="list_song.html">Latest Song</a>
+        </div>
+        <div class="col-2 col-s-4 col-p-4">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <a href="save-song.html">Creat Song</a>
+        </div>
+    </div>
+</div>
+<h1>Create Song</h1>
+
+<div>
+    <div class="sologan col-6 col-s-12 col-p-12">
+        <span>Trong tất cả mọi tiếng ồn, tôi nghĩ âm nhạc là thứ ít khó chịu nhất.
+        <br>
+        Of all noises, I think music is the least disagreeable.</span>
+        <div class=" img-sologan col-12">
+            <img src="../img/Sologan.png" alt="sologan"/>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="box-create col-6 col-s-12">
+        <form action="" name="song-form">
+            <div class="col-12">
+                <label>Name Song</label>
+                <input type="text" name="name">
+                <span></span>
+            </div>
+            <div class="col-12">
+                <label>Singer Name</label>
+                <input type="text" name="singer">
+                <span></span>
+            </div>
+            <div class="col-12">
+                <label>Author</label>
+                <input type="text" name="author">
+                <span></span>
+            </div>
+            <div class="col-12">
+                <label>Thumbnail</label>
+                <input type="text" name="thumbnail">
+                <span></span>
+            </div>
+            <div class="col-12">
+                <label>Link</label>
+                <input type="text" name="link">
+                <span></span>
+            </div>
+            <div class="col-12">
+                <label>Description</label>
+                <input type="text" name="description">
+                <span></span>
+            </div>
+            <div class="col-12">
+                <input class="btn-submit" type="button" name="btn-submit" value="Submit">
+                <input class="btn-reset" type="reset" name="btn-reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row footer">
+    &copy; Le Chi - T1809E Web Music Design
+</div>
+<script src="../js/save-song.js"></script>
+</body>
+</html>

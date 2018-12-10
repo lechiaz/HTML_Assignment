@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<div class="container-head">
+    <div class="row">
+        <div class="logo-home col-1 col-s-12">
+            <a href="login.html" title="Home">
+                <img src="../img/LogoHome.png">
+            </a>
+        </div>
+        <div class="search col-6 col-s-12">
+            <input placeholder="Enter the content to search" name="search">
+            <span>
+            <button type="button" class="btn-search">Search</button>
+            </span>
+        </div>
+        <div class="account col-4 col-s-12">
+            <a href="home.html">Login</a>
+            <i class="fas fa-key"></i>
+            <span>||</span>
+            <a href="register.html">Register</a>
+        </div>
+    </div>
+</div>
+
+<div class="navigation">
+    <div class="row">
+        <div class="col-2 col-s-3 col-p-4">
+            <a href="my-song.html">My Song</a>
+        </div>
+        <div class="col-2 col-s-3 col-p-4">
+            <a href="list_song.html">Latest Song</a>
+        </div>
+        <div class="col-2 col-s-3 col-p-4">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <a href="save-song.html">Creat Song</a>
+        </div>
+    </div>
+</div>
+
+<h1>Register</h1>
+
+<div>
+    <div class="sologan col-6 col-s-12 col-p-12">
+        <span>Trong tất cả mọi tiếng ồn, tôi nghĩ âm nhạc là thứ ít khó chịu nhất.
+        <br>
+        Of all noises, I think music is the least disagreeable.</span>
+        <div class=" img-sologan col-12">
+            <img src="../img/Sologan.png" alt="sologan"/>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="main-content col-6 col-s-12 col-p-12">
+        <form action="" method="post" name="register-form">
+            <div class="row">
+                <label class="col-2">First Name</label>
+                <div class="col-3">
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter First Name">
+                    <span></span>
+                </div>
+
+                <label class="col-2">Last Name</label>
+                <div class="col-3">
+                    <input type="text" name="lastName" placeholder="Enter Last Name">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Password</label>
+                <div class="col-8">
+                    <input type="password" name="password" placeholder="Enter Password">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Confirm Password</label>
+                <div class="col-8">
+                    <input type="password" name="confirmPassword" placeholder="Enter Confirm Password">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <label class="col-2">Email</label>
+                <div class="col-6"><input type="email" name="email" placeholder="Enter Email">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-2">Phone</label>
+                <div class="col-8"><input type="text" name="phone" placeholder="Enter Phone">
+                    <span></span>
+                </div>
+
+            </div>
+            <div class="row">
+                <label class="col-2">Avatar</label>
+                <div class="col-6"><input type="text" name="avatar" placeholder="Enter Avatar">
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <label class="col-2">Address</label>
+                <div class="col-8">
+                    <textarea name="address" cols="50" rows="5"></textarea>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <label class="col-2">Gender</label>
+                <div class="col-4">
+                    <select name="gender">
+                        <option value="1">Male</option>
+                        <option value="0">Female</option>
+                        <option value="2">Other</option>
+                    </select>
+                </div>
+                <label class="col-2">Birthday</label>
+                <div class="col-4"><input type="date" name="birthday"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <input class="btn-submit" type="button" name="btnSubmit" value="Submit">
+                    <input class="btn-reset" type="reset" name="btnReset" value="Reset">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="row footer">
+    &copy; Le Chi - T1809E Web Music Design
+</div>
+<script src="../js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Song</title>
+    <link rel="stylesheet" href="../css/list_song.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-head">
+    <div class="row">
+        <div class="logo-home col-1 col-s-12">
+            <a href="home.html" title="Home">
+                <img src="../img/LogoHome.png">
+            </a>
+        </div>
+        <div class="search col-6 col-s-12">
+            <input placeholder="Enter the content to search" name="search">
+            <span>
+            <button type="button" class="btn-search">Search</button>
+            </span>
+        </div>
+        <div class="account col-4 col-s-12">
+            <a href="login.html">Login</a>
+            <i class="fas fa-key"></i>
+            <span>||</span>
+            <a href="register.html">Register</a>
+        </div>
+    </div>
+</div>
+<div class="navigation">
+    <div class="row">
+        <div class="col-2 col-s-3 col-p-4">
+            <a href="my-song.html">My Song</a>
+        </div>
+        <div class="col-2 col-s-3 col-p-4">
+            <a href="list_song.html">Latest Song</a>
+        </div>
+        <div class="col-2 col-s-3 col-p-4">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <a href="save-song.html">Creat Song</a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="main-content">
+    <div class="row">
+        <audio class="col-6 col-p-12" controls src=""></audio>
+        <div class="col-5 col-p-12 text-playsong">
+            <marquee scrollamount="5">
+                <span id="text-playsong">aa</span>
+            </marquee>
+        </div>
+    </div>
+
+    <div class="list-song" id="list-song">
+    </div>
+
+</div>
+<div class="row footer">
+    &copy; Le Chi - T1809E Web Music Design
+</div>
+<a href="#" class="back-to-top"title="Scroll top"></a>
+<script src="../js/list_song.js"></script>
+</body>
+</html>
+
+
+
+

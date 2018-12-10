@@ -1,0 +1,275 @@
+
+* {
+    margin: 7px;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+body {
+    /*background-image: url("../img/bacgroundLogin.png");*/
+    background-size: cover;
+    background: #dedede;
+}
+
+.msg-error {
+    color: red;
+    font-size: 15px;
+}
+
+.msg-success {
+    color: #0099cc;
+    font-size: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+/* scroll*/
+.back-to-top {
+    display: inline;
+    background-image: url(../img/Scroll.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    right: 1px;
+    bottom: 20px;
+    position: fixed;
+}
+
+.navigation a:hover {
+    background-color: #0099cc;
+}
+
+h1 {
+    text-align: left;
+    font-weight: bold;
+}
+
+.row {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo-home {
+    margin: 15px;
+    padding: 0px;
+}
+
+.logo-home img {
+    width: 100%;
+}
+
+[class*="btn-"]:hover {
+    background-color: #ED3237;
+}
+
+.btn-search, .search input {
+    width: 60%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    margin: 5px;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.btn-submit, .btn-reset {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: #dedede;
+    margin: 0;
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+.btn-search {
+    font-weight: bold;
+    width: 100px;
+}
+
+.account {
+    margin: 10px;
+    text-align: center;
+}
+
+.navigation {
+    background: #666;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.box-create {
+    background: #3d9e66;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0 5%;
+}
+
+.box-create [class*="col-"] {
+    padding: 0;
+    margin: 0;
+}
+
+.sologan {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.img-sologan img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 10px #3d9e66);
+    margin: 0;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    margin: 0px;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    background-color: #333c;
+    color: #ffffff;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For phone: */
+    .song-thumbnail {
+        float: left;
+        width: 30%;
+    }
+
+    .col-p-4 {
+        width: 33.33%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .main-content {
+        margin: 0 8em;
+    }
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
